@@ -86,17 +86,24 @@
 
 
 
-<meta name="description" content="Android 闹钟开发设置">
+<meta name="description" content="Android 闹钟开发设置
+
+本文主要是为了自己做闹钟开发过程中学到的知识点，以及踩到的坑。Android的闹钟和IOS 的闹钟不一样，IOS 的闹钟有设置个数上限50个，Android我查阅了相关资料，并没有说到有设置闹钟上限的说法，如果哪位朋友有查到相关的信息，欢迎交流。众所周知，Android因为是开源，所以存在各种各样的版本，因此开发过程中会遇到在这个手机上能实现的功能，在另一个手">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Android闹钟AlarmManager">
 <meta property="og:url" content="http://yoursite.com/2017/01/03/Android闹钟AlarmManager/index.html">
 <meta property="og:site_name" content="jack_hou's Zone">
-<meta property="og:description" content="Android 闹钟开发设置">
+<meta property="og:description" content="Android 闹钟开发设置
+
+本文主要是为了自己做闹钟开发过程中学到的知识点，以及踩到的坑。Android的闹钟和IOS 的闹钟不一样，IOS 的闹钟有设置个数上限50个，Android我查阅了相关资料，并没有说到有设置闹钟上限的说法，如果哪位朋友有查到相关的信息，欢迎交流。众所周知，Android因为是开源，所以存在各种各样的版本，因此开发过程中会遇到在这个手机上能实现的功能，在另一个手">
 <meta property="og:image" content="http://yoursite.com/images/start1.jpg">
-<meta property="og:updated_time" content="2017-01-03T10:23:42.825Z">
+<meta property="og:image" content="http://yoursite.com/images/Android闹钟AlarmManager/alarmanager_interface.png">
+<meta property="og:updated_time" content="2017-01-04T02:31:33.380Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Android闹钟AlarmManager">
-<meta name="twitter:description" content="Android 闹钟开发设置">
+<meta name="twitter:description" content="Android 闹钟开发设置
+
+本文主要是为了自己做闹钟开发过程中学到的知识点，以及踩到的坑。Android的闹钟和IOS 的闹钟不一样，IOS 的闹钟有设置个数上限50个，Android我查阅了相关资料，并没有说到有设置闹钟上限的说法，如果哪位朋友有查到相关的信息，欢迎交流。众所周知，Android因为是开源，所以存在各种各样的版本，因此开发过程中会遇到在这个手机上能实现的功能，在另一个手">
 <meta name="twitter:image" content="http://yoursite.com/images/start1.jpg">
 
 
@@ -361,7 +368,16 @@
 
       
         <p><img src="/images/start1.jpg" alt="">  </p>
-<h1 id="Android-闹钟开发设置"><a href="#Android-闹钟开发设置" class="headerlink" title="Android 闹钟开发设置"></a>Android 闹钟开发设置</h1>
+<h1 id="Android-闹钟开发设置"><a href="#Android-闹钟开发设置" class="headerlink" title="Android 闹钟开发设置"></a>Android 闹钟开发设置</h1><hr>
+<blockquote>
+<p>本文主要是为了自己做闹钟开发过程中学到的知识点，以及踩到的坑。Android的闹钟和IOS 的闹钟不一样，IOS 的闹钟有设置个数上限50个，Android我查阅了相关资料，并没有说到有设置闹钟上限的说法，如果哪位朋友有查到相关的信息，欢迎交流。众所周知，Android因为是开源，所以存在各种各样的版本，因此开发过程中会遇到在这个手机上能实现的功能，在另一个手机就不能运行的情况，我在做闹钟的情况也遇到过这种情况。下文会把自己学到的知识点，以及踩的坑都会记录下来。</p>
+</blockquote>
+<h1 id="Android-闹钟功能的实现"><a href="#Android-闹钟功能的实现" class="headerlink" title="Android 闹钟功能的实现"></a>Android 闹钟功能的实现</h1><hr>
+<h2 id="AlarmManager-的使用"><a href="#AlarmManager-的使用" class="headerlink" title="AlarmManager 的使用"></a>AlarmManager 的使用</h2><blockquote>
+<p>Anroid 闹钟功能的实现，是系统底层已经帮忙实现好了的，并且提供了接口供我们使用，封装在AlarmManager类中。我们当前先分析介绍下AlarmManager 提供的接口。如下图：</p>
+</blockquote>
+<p><img src="/images/Android闹钟AlarmManager/alarmanager_interface.png" alt=""></p>
+
       
     </div>
 
@@ -399,6 +415,10 @@
           </div>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/01/04/如何写一篇好的技术博客/" rel="prev" title="如何写一篇好的技术博客">
+                如何写一篇好的技术博客 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -489,7 +509,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">6</span>
+              <span class="site-state-item-count">7</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -497,7 +517,7 @@
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -506,7 +526,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-count">6</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -712,7 +732,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Android-闹钟开发设置"><span class="nav-number">1.</span> <span class="nav-text">Android 闹钟开发设置</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Android-闹钟开发设置"><span class="nav-number">1.</span> <span class="nav-text">Android 闹钟开发设置</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Android-闹钟功能的实现"><span class="nav-number">2.</span> <span class="nav-text">Android 闹钟功能的实现</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#AlarmManager-的使用"><span class="nav-number">2.1.</span> <span class="nav-text">AlarmManager 的使用</span></a></li></ol></li></ol></div>
             
           </div>
         </section>
