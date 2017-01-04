@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Android," />
 
 
 
@@ -86,15 +86,31 @@
 
 
 
-<meta name="description" content="专注Android移动端开发，以及逆向渗透。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="jack_hou's Zone">
-<meta property="og:url" content="http://yoursite.com/categories/学习/index.html">
+<meta name="description" content="Android时间、日期相关类和方法Android 系统有三种获取日期的方式：分别是Time、date、Calendar
+Timeandroid.text.format.Time time = new Time(&amp;quot;GMT+8&amp;quot;);
+time.setToNow();
+year = time.year;
+month = time.month;
+day = time.monthDay">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Android时间、日期相关类和方法">
+<meta property="og:url" content="http://yoursite.com/2017/01/04/Android时间、日期相关类和方法/index.html">
 <meta property="og:site_name" content="jack_hou's Zone">
-<meta property="og:description" content="专注Android移动端开发，以及逆向渗透。">
+<meta property="og:description" content="Android时间、日期相关类和方法Android 系统有三种获取日期的方式：分别是Time、date、Calendar
+Timeandroid.text.format.Time time = new Time(&amp;quot;GMT+8&amp;quot;);
+time.setToNow();
+year = time.year;
+month = time.month;
+day = time.monthDay">
+<meta property="og:updated_time" content="2017-01-04T06:42:58.618Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="jack_hou's Zone">
-<meta name="twitter:description" content="专注Android移动端开发，以及逆向渗透。">
+<meta name="twitter:title" content="Android时间、日期相关类和方法">
+<meta name="twitter:description" content="Android时间、日期相关类和方法Android 系统有三种获取日期的方式：分别是Time、date、Calendar
+Timeandroid.text.format.Time time = new Time(&amp;quot;GMT+8&amp;quot;);
+time.setToNow();
+year = time.year;
+month = time.month;
+day = time.monthDay">
 
 
 
@@ -115,10 +131,10 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/categories/学习/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/01/04/Android时间、日期相关类和方法/"/>
 
 
-  <title> 分类: 学习 | jack_hou's Zone </title>
+  <title> Android时间、日期相关类和方法 | jack_hou's Zone </title>
 </head>
 
 <body itemscope itemtype="//schema.org/WebPage" lang="zh-Hans">
@@ -149,7 +165,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="//schema.org/WPHeader">
@@ -270,47 +286,188 @@
           <div id="content" class="content">
             
 
-  <section id="posts" class="posts-collapse">
-    <div class="collection-title">
-      <h2 >
-        学习
-        <small>分类</small>
-      </h2>
-    </div>
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
 
     
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Android时间、日期相关类和方法
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2017-01-04T14:31:36+08:00" content="2017-01-04">
+              2017-01-04
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Android/" itemprop="url" rel="index">
+                    <span itemprop="name">Android</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2017/01/04/Android时间、日期相关类和方法/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/01/04/Android时间、日期相关类和方法/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
       
 
-  <article class="post post-type-normal" itemscope itemtype="//schema.org/Article">
-    <header class="post-header">
+      
+        <h1 id="Android时间、日期相关类和方法"><a href="#Android时间、日期相关类和方法" class="headerlink" title="Android时间、日期相关类和方法"></a>Android时间、日期相关类和方法</h1><p>Android 系统有三种获取日期的方式：分别是Time、date、Calendar</p>
+<h2 id="Time"><a href="#Time" class="headerlink" title="Time"></a>Time</h2><pre><code>android.text.format.Time time = new Time(&quot;GMT+8&quot;);
+time.setToNow();
+year = time.year;
+month = time.month;
+day = time.monthDay;
+minute = time.minute;
+hour = time.hour;
+sec = time.second;
+</code></pre><h2 id="Date"><a href="#Date" class="headerlink" title="Date"></a>Date</h2><pre><code>SimpleDateFormat formatter = new SimpleDateFormat(&quot;yyyy年MM月dd日 HH:mm:ss &quot;);
+Date curDate = new Date(System.currentTimeMillis());//获取当前时间
+dateTime = formatter.format(curDate);
+</code></pre><h2 id="Calendar"><a href="#Calendar" class="headerlink" title="Calendar"></a>Calendar</h2><pre><code>Calendar calendar = Calendar.getInstance();
+Clenderyear = calendar.get(Calendar.YEAR);
+Clendermonth = calendar.get(Calendar.MONTH);
+Clenderday = calendar.get(Calendar.DAY_OF_MONTH);
+</code></pre><h2 id="获取当前系统的时间"><a href="#获取当前系统的时间" class="headerlink" title="获取当前系统的时间"></a>获取当前系统的时间</h2><pre><code>System.currentTimeMillis()
+</code></pre><p>注意：Canlendar 和Date 的月份是0~11，要比实际的月份少1。</p>
 
-      <h1 class="post-title">
+      
+    </div>
+
+    <div>
+      
         
-            <a class="post-title-link" href="/2017/01/04/如何写一篇好的技术博客/" itemprop="url">
-              
-                <span itemprop="name">如何写一篇好的技术博客</span>
-              
-            </a>
+
+      
+    </div>
+
+    <div>
+      
         
-      </h1>
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-01-04T10:01:08+08:00"
-              content="2017-01-04" >
-          01-04
-        </time>
-      </div>
+      
+    </div>
 
-    </header>
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Android/" rel="tag">#Android</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/01/04/如何写一篇好的技术博客/" rel="next" title="如何写一篇好的技术博客">
+                <i class="fa fa-chevron-left"></i> 如何写一篇好的技术博客
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/01/04/AndroidSwipelayout的使用小结/" rel="prev" title="AndroidSwipelayout的使用小结">
+                AndroidSwipelayout的使用小结 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+        <div class="ds-share flat" data-thread-key="2017/01/04/Android时间、日期相关类和方法/"
+     data-title="Android时间、日期相关类和方法"
+     data-content=""
+     data-url="http://yoursite.com/2017/01/04/Android时间、日期相关类和方法/">
+  <div class="ds-share-inline">
+    <ul  class="ds-share-icons-16">
 
+      <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+      <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+      <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+      <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+      <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+
+    </ul>
+    <div class="ds-share-icons-more">
+    </div>
+  </div>
+</div>
+      
+    </div>
+  </div>
 
 
           </div>
@@ -318,6 +475,14 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2017/01/04/Android时间、日期相关类和方法/"
+           data-title="Android时间、日期相关类和方法" data-url="http://yoursite.com/2017/01/04/Android时间、日期相关类和方法/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -337,8 +502,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="//schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.jpg"
@@ -566,6 +740,17 @@
       </section>
 
       
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Android时间、日期相关类和方法"><span class="nav-number">1.</span> <span class="nav-text">Android时间、日期相关类和方法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Time"><span class="nav-number">1.1.</span> <span class="nav-text">Time</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Date"><span class="nav-number">1.2.</span> <span class="nav-text">Date</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Calendar"><span class="nav-number">1.3.</span> <span class="nav-text">Calendar</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#获取当前系统的时间"><span class="nav-number">1.4.</span> <span class="nav-text">获取当前系统的时间</span></a></li></ol></li></ol></div>
+            
+          </div>
+        </section>
+      
 
     </div>
   </aside>
@@ -668,6 +853,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.2"></script>
+
+
 
   
 

@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Android," />
 
 
 
@@ -86,15 +86,40 @@
 
 
 
-<meta name="description" content="专注Android移动端开发，以及逆向渗透。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="jack_hou's Zone">
-<meta property="og:url" content="http://yoursite.com/categories/学习/index.html">
+<meta name="description" content="AndroidSwipelayout的使用小结
+
+公司项目最近有用到侧滑删除的功能，网上找了很多开源控件，还是AndroidSwipelayout使用比较方便，自定义程度高，所以打算记录下使用过程，以及使用过程中踩的坑。
+
+第一步引包
+从github 上引入包
+
+dependencies {
+    compile &amp;apos;com.android.support:recyclerview-v7">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AndroidSwipelayout的使用小结">
+<meta property="og:url" content="http://yoursite.com/2017/01/04/AndroidSwipelayout的使用小结/index.html">
 <meta property="og:site_name" content="jack_hou's Zone">
-<meta property="og:description" content="专注Android移动端开发，以及逆向渗透。">
+<meta property="og:description" content="AndroidSwipelayout的使用小结
+
+公司项目最近有用到侧滑删除的功能，网上找了很多开源控件，还是AndroidSwipelayout使用比较方便，自定义程度高，所以打算记录下使用过程，以及使用过程中踩的坑。
+
+第一步引包
+从github 上引入包
+
+dependencies {
+    compile &amp;apos;com.android.support:recyclerview-v7">
+<meta property="og:updated_time" content="2017-01-04T07:25:01.380Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="jack_hou's Zone">
-<meta name="twitter:description" content="专注Android移动端开发，以及逆向渗透。">
+<meta name="twitter:title" content="AndroidSwipelayout的使用小结">
+<meta name="twitter:description" content="AndroidSwipelayout的使用小结
+
+公司项目最近有用到侧滑删除的功能，网上找了很多开源控件，还是AndroidSwipelayout使用比较方便，自定义程度高，所以打算记录下使用过程，以及使用过程中踩的坑。
+
+第一步引包
+从github 上引入包
+
+dependencies {
+    compile &amp;apos;com.android.support:recyclerview-v7">
 
 
 
@@ -115,10 +140,10 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/categories/学习/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/01/04/AndroidSwipelayout的使用小结/"/>
 
 
-  <title> 分类: 学习 | jack_hou's Zone </title>
+  <title> AndroidSwipelayout的使用小结 | jack_hou's Zone </title>
 </head>
 
 <body itemscope itemtype="//schema.org/WebPage" lang="zh-Hans">
@@ -149,7 +174,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="//schema.org/WPHeader">
@@ -270,47 +295,337 @@
           <div id="content" class="content">
             
 
-  <section id="posts" class="posts-collapse">
-    <div class="collection-title">
-      <h2 >
-        学习
-        <small>分类</small>
-      </h2>
-    </div>
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
 
     
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                AndroidSwipelayout的使用小结
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2017-01-04T14:46:59+08:00" content="2017-01-04">
+              2017-01-04
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Android/" itemprop="url" rel="index">
+                    <span itemprop="name">Android</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2017/01/04/AndroidSwipelayout的使用小结/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/01/04/AndroidSwipelayout的使用小结/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
       
 
-  <article class="post post-type-normal" itemscope itemtype="//schema.org/Article">
-    <header class="post-header">
+      
+        <h1 id="AndroidSwipelayout的使用小结"><a href="#AndroidSwipelayout的使用小结" class="headerlink" title="AndroidSwipelayout的使用小结"></a>AndroidSwipelayout的使用小结</h1><hr>
+<blockquote>
+<p>公司项目最近有用到侧滑删除的功能，网上找了很多开源控件，还是AndroidSwipelayout使用比较方便，自定义程度高，所以打算记录下使用过程，以及使用过程中踩的坑。</p>
+</blockquote>
+<h2 id="第一步引包"><a href="#第一步引包" class="headerlink" title="第一步引包"></a>第一步引包</h2><blockquote>
+<p>从github 上引入包</p>
+</blockquote>
+<pre><code>dependencies {
+    compile &apos;com.android.support:recyclerview-v7:21.0.0&apos;
+    compile &apos;com.android.support:support-v4:20.+&apos;
+    compile &quot;com.daimajia.swipelayout:library:1.2.0@aar&quot;
+}
+</code></pre><h2 id="第二步创建SwipeLayout布局"><a href="#第二步创建SwipeLayout布局" class="headerlink" title="第二步创建SwipeLayout布局"></a>第二步创建SwipeLayout布局</h2><blockquote>
+<p>在XML上创建SwipeLayout的布局</p>
+</blockquote>
+<pre><code>&lt;com.daimajia.swipe.SwipeLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    android:layout_width=&quot;match_parent&quot; android:layout_height=&quot;80dp&quot;&gt;
+    &lt;!-- Bottom View Start--&gt;
+     &lt;LinearLayout
+        android:background=&quot;#66ddff00&quot;
+        android:id=&quot;@+id/bottom_wrapper&quot;
+        android:layout_width=&quot;160dp&quot;
+        android:weightSum=&quot;1&quot;
+        android:layout_height=&quot;match_parent&quot;&gt;
+        &lt;!--What you want to show--&gt;
+    &lt;/LinearLayout&gt;
+    &lt;!-- Bottom View End--&gt;
 
-      <h1 class="post-title">
+    &lt;!-- Surface View Start --&gt;
+     &lt;LinearLayout
+        android:padding=&quot;10dp&quot;
+        android:background=&quot;#ffffff&quot;
+        android:layout_width=&quot;match_parent&quot;
+        android:layout_height=&quot;match_parent&quot;&gt;
+        &lt;!--What you want to show in SurfaceView--&gt;
+    &lt;/LinearLayout&gt;
+    &lt;!-- Surface View End --&gt;
+&lt;/com.daimajia.swipe.SwipeLayout&gt;
+</code></pre><p>Surface View 是你想要展示在外面的布局，Bottom View是你想隐藏在后面的布局，用来滑动脱拖出的布局。</p>
+<h2 id="第三步初始化SwipeLayout布局"><a href="#第三步初始化SwipeLayout布局" class="headerlink" title="第三步初始化SwipeLayout布局"></a>第三步初始化SwipeLayout布局</h2><blockquote>
+<p>初始化你的SwipeLayout布局，并且设置监听，处理事件。</p>
+</blockquote>
+<pre><code>SwipeLayout swipeLayout =  (SwipeLayout)findViewById(R.id.sample1);
+
+//set show mode.
+swipeLayout.setShowMode(SwipeLayout.ShowMode.LayDown);
+
+//add drag edge.(If the BottomView has &apos;layout_gravity&apos; attribute, this line is unnecessary)
+swipeLayout.addDrag(SwipeLayout.DragEdge.Left, findViewById(R.id.bottom_wrapper));
+
+swipeLayout.addSwipeListener(new SwipeLayout.SwipeListener() {
+            @Override
+            public void onClose(SwipeLayout layout) {
+                //when the SurfaceView totally cover the BottomView.
+            }
+
+            @Override
+            public void onUpdate(SwipeLayout layout, int leftOffset, int topOffset) {
+               //you are swiping.
+            }
+
+            @Override
+            public void onStartOpen(SwipeLayout layout) {
+
+            }
+
+            @Override
+            public void onOpen(SwipeLayout layout) {
+               //when the BottomView totally show.
+            }
+
+            @Override
+            public void onStartClose(SwipeLayout layout) {
+
+            }
+
+            @Override
+            public void onHandRelease(SwipeLayout layout, float xvel, float yvel) {
+               //when user&apos;s hand released.
+            }
+        });  
+</code></pre><h2 id="第四步设置数据"><a href="#第四步设置数据" class="headerlink" title="第四步设置数据"></a>第四步设置数据</h2><p>SwipeLayout 提供了SwipeAdapter给布局做数据适配，它一共封装了4种数据适配：BaseSwipeAdapter、ArraySwipeAdapter、CursorSwipeAdapter、SimpleCursorSwipeAdapter。<br>下面以BaseSwipeAdapter举例：  </p>
+<pre><code>public class AddListViewSwipeAdapter extends BaseSwipeAdapter {
+    private Context mContext;
+    private LayoutInflater mInflater;
+    public List&lt;String&gt; mlist;
+
+    SwipeLayout swipeLayout;
+
+
+    public AddListViewSwipeAdapter(Context mContext, List&lt;String&gt; list) {
+        this.mContext = mContext;
+        mInflater = LayoutInflater.from(mContext);
+        this.mlist = list;
+    }
+
+    @Override
+    public int getSwipeLayoutResourceId(int position) {
+        return R.id.listview_swipe;
+    }
+
+    @Override
+    public View generateView(final int position, ViewGroup parent) {
+        View v = mInflater.inflate(R.layout.item_add_time, null);
+        swipeLayout = (SwipeLayout) v.findViewById(getSwipeLayoutResourceId(position));
+        swipeLayout.addSwipeListener(new SimpleSwipeListener() {
+            @Override
+            public void onOpen(SwipeLayout layout) {
+
+            }
+        });
+        swipeLayout.setOnDoubleClickListener(new SwipeLayout.DoubleClickListener() {
+            @Override
+            public void onDoubleClick(SwipeLayout layout, boolean surface) {
+                Toast.makeText(mContext, &quot;DoubleClick&quot;, Toast.LENGTH_SHORT).show();
+            }
+        });
+        return v;
+    }
+
+    @Override
+    public void fillValues(final int position, View convertView) {
+    //注意：这个里面的position才会是随item变化而递增的，处理list的数据要在这个方法中
+        Button button = (Button) convertView.findViewById(R.id.delete);
+        TextView tv_cishu = (TextView) convertView.findViewById(R.id.tv_cishu);
+        TextView tv_shijian = (TextView) convertView.findViewById(R.id.tv_shijian);
+        button.setText(&quot;删除&quot;);
+        tv_cishu.setText(&quot;第&quot; + (position + 1) + &quot;次&quot;);
+        tv_shijian.setText(mlist.get(position));
+    //设置监听事件
+        swipeLayout.findViewById(R.id.delete).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mlist.remove(position);
+                for (SwipeLayout s : getOpenLayouts()
+                        ) {
+                    //关闭侧滑区域
+                    if (s.getOpenStatus() == SwipeLayout.Status.Open) {
+                        s.close();
+                    }
+                }
+                notifyDataSetChanged();
+            }
+        });
+
+    }
+
+    @Override
+    public int getCount() {
+        return mlist.size();
+    }
+
+    @Override
+    public Object getItem(int position) {
+        return mlist.get(position);
+    }
+
+    @Override
+    public long getItemId(int position) {
+        return position;
+    }
+
+    public List getList() {
+        return mlist;
+    }
+}
+</code></pre><p><a href="https://github.com/daimajia/AndroidSwipeLayout" target="_blank" rel="external">感谢代码家提供的控件，以下是github的链接地址</a></p>
+
+      
+    </div>
+
+    <div>
+      
         
-            <a class="post-title-link" href="/2017/01/04/如何写一篇好的技术博客/" itemprop="url">
-              
-                <span itemprop="name">如何写一篇好的技术博客</span>
-              
-            </a>
+
+      
+    </div>
+
+    <div>
+      
         
-      </h1>
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-01-04T10:01:08+08:00"
-              content="2017-01-04" >
-          01-04
-        </time>
-      </div>
+      
+    </div>
 
-    </header>
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Android/" rel="tag">#Android</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/01/04/Android时间、日期相关类和方法/" rel="next" title="Android时间、日期相关类和方法">
+                <i class="fa fa-chevron-left"></i> Android时间、日期相关类和方法
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/01/04/Android遍历两个日期之间每一天/" rel="prev" title="Android遍历两个日期之间每一天">
+                Android遍历两个日期之间每一天 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+        <div class="ds-share flat" data-thread-key="2017/01/04/AndroidSwipelayout的使用小结/"
+     data-title="AndroidSwipelayout的使用小结"
+     data-content=""
+     data-url="http://yoursite.com/2017/01/04/AndroidSwipelayout的使用小结/">
+  <div class="ds-share-inline">
+    <ul  class="ds-share-icons-16">
 
+      <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+      <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+      <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+      <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+      <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+
+    </ul>
+    <div class="ds-share-icons-more">
+    </div>
+  </div>
+</div>
+      
+    </div>
+  </div>
 
 
           </div>
@@ -318,6 +633,14 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2017/01/04/AndroidSwipelayout的使用小结/"
+           data-title="AndroidSwipelayout的使用小结" data-url="http://yoursite.com/2017/01/04/AndroidSwipelayout的使用小结/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -337,8 +660,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="//schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.jpg"
@@ -566,6 +898,17 @@
       </section>
 
       
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#AndroidSwipelayout的使用小结"><span class="nav-number">1.</span> <span class="nav-text">AndroidSwipelayout的使用小结</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#第一步引包"><span class="nav-number">1.1.</span> <span class="nav-text">第一步引包</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第二步创建SwipeLayout布局"><span class="nav-number">1.2.</span> <span class="nav-text">第二步创建SwipeLayout布局</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第三步初始化SwipeLayout布局"><span class="nav-number">1.3.</span> <span class="nav-text">第三步初始化SwipeLayout布局</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第四步设置数据"><span class="nav-number">1.4.</span> <span class="nav-text">第四步设置数据</span></a></li></ol></li></ol></div>
+            
+          </div>
+        </section>
+      
 
     </div>
   </aside>
@@ -668,6 +1011,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.2"></script>
+
+
 
   
 
